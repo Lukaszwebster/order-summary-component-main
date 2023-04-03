@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+	background-color: hsl(225, 100%, 94%);
+	background-image: url(images/pattern-background-mobile.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-box {
+	display: flex;
+	flex-direction: column;
+	margin: 28px;
+	background-color: white;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	max-width: 400px;
+	box-shadow: 0px 18px 80px -40px hsl(224, 23%, 55%);
+}
+
+.title {
+	font-family: "Red Hat Display", sans-serif;
+	font-weight: 900;
+	font-size: 22px;
+	margin-top: 22px;
+}
+.description {
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 18px;
+	text-align: center;
+	line-height: 26px;
+}
+.text-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 40px 0 40px;
+}
+.small-box {
+	background-color: hsl(225, 100%, 98%);
+	font-family: "Red Hat Display", sans-serif;
+	margin-top: 20px;
+	display: flex;
+	border-radius: 18px;
+	padding: 18px;
+	gap: 22px;
+}
+.annual-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.annual-plan {
+	font-size: 14px;
+	font-weight: 700;
+}
+.price {
+	font-size: 14px;
+	font-weight: 500;
+}
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	margin-left: 18px;
+	color: blue;
+	text-decoration: underline;
+}
+.link:hover {
+	cursor: pointer;
+}
+.blue-button {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 20px 20px 14px 20px;
+	border-radius: 14px;
+	padding: 16px 70px 16px 70px;
+	box-shadow: 0px 30px 30px hsl(225, 100%, 94%);
+}
+.cancel {
+	margin: 8px 0 20px 0;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+.cancel:hover {
+	cursor: pointer;
+}
+
+@media (min-width: 400px) {
+	body {
+		background-image: url(images/pattern-background-desktop.svg);
+	}
+}
