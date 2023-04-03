@@ -36,6 +36,7 @@ body {
 	margin-top: 18px;
 	text-align: center;
 	line-height: 26px;
+	color: hsl(224, 23%, 55%);
 }
 .text-wrapper {
 	display: flex;
