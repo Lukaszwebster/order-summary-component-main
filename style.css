@@ -4,7 +4,7 @@ body {
 	background-color: hsl(225, 100%, 94%);
 	background-image: url(images/pattern-background-mobile.svg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: top;
 	display: flex;
 	justify-content: center;
@@ -23,7 +23,6 @@ body {
 	max-width: 400px;
 	box-shadow: 0px 18px 80px -40px hsl(224, 23%, 55%);
 }
-
 .title {
 	font-family: "Red Hat Display", sans-serif;
 	font-weight: 900;
@@ -98,7 +97,6 @@ body {
 .cancel:hover {
 	cursor: pointer;
 }
-
 @media (min-width: 400px) {
 	body {
 		background-image: url(images/pattern-background-desktop.svg);
